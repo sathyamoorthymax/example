@@ -10,32 +10,60 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-        </head>
-    <body>
-        <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
+    <style>
+        *{
+            font-family: 'Manrope';
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
 
-                <th scope="col">stu_fname</th>
-                <th scope="col">stu_name</th>
-                <th scope="col">stu_dob</th>
-                <th scope="col">stu_sec</th>
-                <th scope="col">stu_hobbies</th>
-                <th scope="col">stu_address</th>
-                <th scope="col">stu_district</th>
-                <th scope="col">stu_state</th>
-                <th scope="col">stu_pincode</th>
-                <th scope="col">stu_country</th>
-                <th scope="col">stu_email</th>
-                <th scope="col">stu_number</th>
-                <th scope="col">stu_password</th>
-                <th scope="col">stu_cpassword</th>
-                <th scope="col">stu_standard</th>
-                <th scope="col">stu_reg_number</th>
-                <th scope="col">stu_blood_group</th>
-                <th scope="col">stu_gender</th>
+        }
+        body{
+            background-color:whitesmoke;
+
+        }
+
+        table{
+            border:2px solid;
+        }
+         tr td :hover{
+            background-color:wheat;
+        }
+    </style>
+    </head>
+    <body class="py-4 text-center">
+        <h1>STUDENT DETAILS</h1>
+        <table class=" table p-4">
+
+            <thead>
+              <tr style="background-color:#029779">
+
+                <th scope="col" style="background-color:#029779">STUDENT</th>
+
+                <th scope="col"style="background-color:#029779">First Name</th>
+                <th scope="col"style="background-color:#029779">Second Name</th>
+                <th scope="col"style="background-color:#029779">Date of Birth</th>
+                <th scope="col"style="background-color:#029779">Section</th>
+                <th scope="col"style="background-color:#029779">Hobbies</th>
+                <th scope="col"style="background-color:#029779">Address</th>
+                <th scope="col"style="background-color:#029779">District</th>
+                <th scope="col"style="background-color:#029779">state</th>
+
+                <th scope="col"style="background-color:#029779">Pincode</th>
+                <th scope="col"style="background-color:#029779">Country</th>
+                <th scope="col"style="background-color:#029779">Email</th>
+                <th scope="col"style="background-color:#029779">Number</th>
+                <th scope="col"style="background-color:#029779">Password</th>
+                <th scope="col"style="background-color:#029779">confirm-password</th>
+                <th scope="col"style="background-color:#029779">Standard</th>
+                <th scope="col"style="background-color:#029779">Reg number</th>
+                <th scope="col"style="background-color:#029779">Blood_group</th>
+                <th scope="col"style="background-color:#029779">Gender</th>
+                <th scope="col"style="background-color:#029779">edit/delete</th>
+
+
 
 
 
