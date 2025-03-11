@@ -45,7 +45,7 @@ i:hover{
   <body class="justify-content-center align-items-center ">
 
     <div class="col-7 p-3 container my-4">
-        <h1 class="container-fluid text-center mt-4"><span id="logo"><i class='example fa fa-graduation-cap ' style="font-size:70px;"></i></span>Student Registration Form</h1>
+        <h1 class="container-fluid text-center mt-4"><span id="logo"><i class='example fa fa-graduation-cap ' style="font-size:70px;"></i></span>Edit Student Form</h1>
     <hr>
       <form action="{{ route('edit-student') }}" class="shadow-sm bg-light text-darks " method="post">
         @csrf
@@ -203,7 +203,7 @@ i:hover{
     </div>
 </div>
             <div class="col-12 text-center">
-              <button class="btn btn-primary col-5" type="submit">Submit form</button>
+              <button class="btn btn-primary col-5" type="submit">Edit</button>
             </div>
           </form>
       </div>
