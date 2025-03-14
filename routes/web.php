@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\EmployeeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +35,13 @@ Route::get('/student', function () {
 Route::get('/view-student', function () {
     return view('viewStudent');
 });
+Route::get('/employee', function () {
+    return view('employee');
+});
+Route::get('/view-employee',function(){
+    return view('viewEmployee');
+});
+
 
 
 Route::post('/add-contact',[ContactController::class,'store'])->name('store-contact');
@@ -42,4 +50,10 @@ Route::post('/add-student',[StudentController::class,'store'])->name('store-stud
 Route::get('/view-student',[StudentController::class,'show'])->name('view-student');
 Route::get('/edit-student',[StudentController::class,'edit'])->name('edit-student');
 Route::get('/delete-student/{id}',[StudentController::class,'destroy'])->name('delete-student');
+Route::post('/add-employee',[EmployeeController::class,'store'])->name('store-employee');
+Route::get('/view-employee',[EmployeeController::class,'show'])->name('view-employee');
+Route::get('/edit-employee/{id}',[EmployeeController::class,'edit'])->name('edit-employee');
+Route::get('/delete-employee/{id}',[EmployeeController::class,'destroy'])->name('delete-employee');
+Route::put('/update-Employee/{id}', [EmployeeController::class, 'update'])->name('update.employee');
+
 

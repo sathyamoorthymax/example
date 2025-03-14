@@ -77,14 +77,14 @@
                 </div>
                 <div>
                     <ul class="d-inline-flex fw-bold">
-                        <li class="px-4">Header</li>
+                        <li class="px-4"><a href="/employee">Employee</a></li>
                         <li class="px-4">Hero blocks</li>
                         <li class="px-4"><a href="/view-student">viewstudent</a></li>
                         <li class="px-4"><a href="home">Home</a></li>
-                        <li class="px-4">About</li>
+                        <li class="px-4"><a href="/view-employee">view Employee</a></li>
                         <li class="px-4"><a href="/student">student</li>
                         <li class="px-4"><a href="/view-users">viewuser</a></li>
-                        <li class="px-4"><a href="contact">Contact</a></li>
+                        <li class="px-4"><a href="/contact">Contact</a></li>
                         <li><a href="" class="px-4 py-2 rounded-2 bg-warning text-white"
                                 style="text-decoration:none !important">BUY NOW</a></li>
                     </ul>

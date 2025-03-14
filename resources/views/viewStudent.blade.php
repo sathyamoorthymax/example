@@ -48,18 +48,14 @@
                 <th scope="col"style="background-color:#029779">Section</th>
                 <th scope="col"style="background-color:#029779">Hobbies</th>
                 <th scope="col"style="background-color:#029779">Address</th>
-                <th scope="col"style="background-color:#029779">District</th>
-                <th scope="col"style="background-color:#029779">state</th>
 
-                <th scope="col"style="background-color:#029779">Pincode</th>
-                <th scope="col"style="background-color:#029779">Country</th>
+
                 <th scope="col"style="background-color:#029779">Email</th>
                 <th scope="col"style="background-color:#029779">Number</th>
-                <th scope="col"style="background-color:#029779">Password</th>
-                <th scope="col"style="background-color:#029779">confirm-password</th>
+
                 <th scope="col"style="background-color:#029779">Standard</th>
                 <th scope="col"style="background-color:#029779">Reg number</th>
-                <th scope="col"style="background-color:#029779">Blood_group</th>
+
                 <th scope="col"style="background-color:#029779">Gender</th>
                 <th scope="col"style="background-color:#029779">edit/delete</th>
 
@@ -85,17 +81,14 @@
                         </td>
 
                     <td>{{$student->stu_address}}</td>
-                    <td>{{$student->stu_district}}</td>
-                    <td>{{$student->stu_state}}</td>
-                    <td>{{$student->stu_pincode}}</td>
-                    <td>{{$student->stu_country}}</td>
+
                     <td>{{$student->stu_email}}</td>
                     <td>{{$student->stu_number}}</td>
-                    <td>{{$student->stu_password}}</td>
-                    <td>{{$student->stu_cpassword}}</td>
+
+
                     <td>{{$student->stu_standard}}</td>
                     <td>{{$student->stu_reg_number}}</td>
-                    <td>{{$student->stu_blood_group}}</td>
+
                     <td>{{$student->stu_gender}}</td>
 
 
